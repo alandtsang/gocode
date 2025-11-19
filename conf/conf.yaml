@@ -1,0 +1,19 @@
+app:
+  name: "My Application"
+  port: 8080
+  debug: true
+
+database:
+  host: "localhost"
+  port: 5432
+  username: "admin"
+  password: "cm9vdDEyMzQ1Ng=="  # encrypted password
+  name: "mydb"
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "cmVkaXN0ZXN0"  # encrypted password
+
+encryption:
+  algorithm: "base64"
