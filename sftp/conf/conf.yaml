@@ -1,0 +1,14 @@
+server:
+  host: "localhost"
+  port: 2222
+  root_path: "./sftp_root"
+
+users:
+  - username: "admin"
+    password: "password123"
+    permissions:
+      - path: "./sftp_root/admin"
+        read: true
+        write: true
+        cmd: true
+        list: true
